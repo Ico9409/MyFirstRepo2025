@@ -82,8 +82,6 @@ public class RouteController {
 
         return modelAndView;
     }
-    // fix
-   //second fix
     @GetMapping("/routes/{category}")
     public ModelAndView getRoutesByCategory(@PathVariable CategoryType category) {
         String view = "";
